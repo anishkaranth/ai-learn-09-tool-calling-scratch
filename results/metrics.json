@@ -1,0 +1,199 @@
+{
+  "project": "ai-learn-09-tool-calling-scratch",
+  "seed": 42,
+  "n_tasks": 23,
+  "n_multi_step": 5,
+  "n_single_step": 18,
+  "n_tools": 5,
+  "tool_names": [
+    "calculator",
+    "datetime_info",
+    "kb_lookup",
+    "string_ops",
+    "weather"
+  ],
+  "tool_call_success_rate": 1.0,
+  "tool_selection_accuracy": 1.0,
+  "answer_accuracy": 1.0,
+  "multi_step_accuracy": 1.0,
+  "single_step_accuracy": 1.0,
+  "n_tool_selection_ok": 23,
+  "n_answer_ok": 23,
+  "n_multi_ok": 5,
+  "n_single_ok": 18,
+  "total_tool_calls": 33,
+  "total_tool_ok": 33,
+  "mean_tools_per_task": 1.4348,
+  "mean_steps_per_task": 1.4348,
+  "tool_usage": {
+    "calculator": 8,
+    "datetime_info": 5,
+    "kb_lookup": 10,
+    "string_ops": 4,
+    "weather": 6
+  },
+  "runtime_s": 0.002,
+  "per_task": [
+    {
+      "id": "calc_add",
+      "multi_step": false,
+      "tools_called": ["calculator"],
+      "tool_selection_ok": true,
+      "answer_ok": true
+    },
+    {
+      "id": "calc_mul",
+      "multi_step": false,
+      "tools_called": ["kb_lookup", "calculator"],
+      "tool_selection_ok": true,
+      "answer_ok": true
+    },
+    {
+      "id": "calc_div",
+      "multi_step": false,
+      "tools_called": ["calculator"],
+      "tool_selection_ok": true,
+      "answer_ok": true
+    },
+    {
+      "id": "calc_sqrt",
+      "multi_step": false,
+      "tools_called": ["calculator", "kb_lookup"],
+      "tool_selection_ok": true,
+      "answer_ok": true
+    },
+    {
+      "id": "calc_pct",
+      "multi_step": false,
+      "tools_called": ["calculator"],
+      "tool_selection_ok": true,
+      "answer_ok": true
+    },
+    {
+      "id": "wx_blr",
+      "multi_step": false,
+      "tools_called": ["weather", "kb_lookup"],
+      "tool_selection_ok": true,
+      "answer_ok": true
+    },
+    {
+      "id": "wx_london",
+      "multi_step": false,
+      "tools_called": ["weather"],
+      "tool_selection_ok": true,
+      "answer_ok": true
+    },
+    {
+      "id": "wx_tokyo",
+      "multi_step": false,
+      "tools_called": ["weather"],
+      "tool_selection_ok": true,
+      "answer_ok": true
+    },
+    {
+      "id": "dt_weekday",
+      "multi_step": false,
+      "tools_called": ["datetime_info"],
+      "tool_selection_ok": true,
+      "answer_ok": true
+    },
+    {
+      "id": "dt_tomorrow",
+      "multi_step": false,
+      "tools_called": ["datetime_info"],
+      "tool_selection_ok": true,
+      "answer_ok": true
+    },
+    {
+      "id": "dt_year",
+      "multi_step": false,
+      "tools_called": ["datetime_info"],
+      "tool_selection_ok": true,
+      "answer_ok": true
+    },
+    {
+      "id": "kb_rag",
+      "multi_step": false,
+      "tools_called": ["kb_lookup"],
+      "tool_selection_ok": true,
+      "answer_ok": true
+    },
+    {
+      "id": "kb_lora",
+      "multi_step": false,
+      "tools_called": ["kb_lookup"],
+      "tool_selection_ok": true,
+      "answer_ok": true
+    },
+    {
+      "id": "kb_react",
+      "multi_step": false,
+      "tools_called": ["kb_lookup"],
+      "tool_selection_ok": true,
+      "answer_ok": true
+    },
+    {
+      "id": "kb_python",
+      "multi_step": false,
+      "tools_called": ["kb_lookup"],
+      "tool_selection_ok": true,
+      "answer_ok": true
+    },
+    {
+      "id": "str_upper",
+      "multi_step": false,
+      "tools_called": ["string_ops"],
+      "tool_selection_ok": true,
+      "answer_ok": true
+    },
+    {
+      "id": "str_reverse",
+      "multi_step": false,
+      "tools_called": ["string_ops"],
+      "tool_selection_ok": true,
+      "answer_ok": true
+    },
+    {
+      "id": "str_words",
+      "multi_step": false,
+      "tools_called": ["kb_lookup", "string_ops"],
+      "tool_selection_ok": true,
+      "answer_ok": true
+    },
+    {
+      "id": "multi_calc_wx",
+      "multi_step": true,
+      "tools_called": ["calculator", "weather"],
+      "tool_selection_ok": true,
+      "answer_ok": true
+    },
+    {
+      "id": "multi_kb_dt",
+      "multi_step": true,
+      "tools_called": ["kb_lookup", "datetime_info"],
+      "tool_selection_ok": true,
+      "answer_ok": true
+    },
+    {
+      "id": "multi_wx_calc",
+      "multi_step": true,
+      "tools_called": ["calculator", "weather"],
+      "tool_selection_ok": true,
+      "answer_ok": true
+    },
+    {
+      "id": "multi_str_kb",
+      "multi_step": true,
+      "tools_called": ["kb_lookup", "string_ops"],
+      "tool_selection_ok": true,
+      "answer_ok": true
+    },
+    {
+      "id": "multi_three",
+      "multi_step": true,
+      "tools_called": ["calculator", "weather", "datetime_info"],
+      "tool_selection_ok": true,
+      "answer_ok": true
+    }
+  ]
+}
