@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="480" height="180">
 <rect width="100%" height="100%" fill="#fff"/>
-<text x="240.0" y="22" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold">Tool usage frequency</text>
+<text x="240.0" y="22" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold">Tool usage</text>
 <text x="10" y="52" font-family="sans-serif" font-size="11">calculator</text>
 <rect x="120" y="40" width="160.0" height="16" fill="#457b9d" stroke="#222" stroke-width="0.5"/>
 <text x="286.0" y="52" font-family="sans-serif" font-size="11">8</text>
