@@ -41,7 +41,8 @@ Tools registered in smoke:
 ## Layout
 
 ```
-tools.py               # registry, schemas, handlers
+world.py               # tool handlers, registry, JSON-schema specs
+tools.py               # thin re-export shim (from world)
 planner.py             # keyword/regex planner + arg extractors
 agent.py               # ReAct-style loop + answer synthesis
 tasks.py               # labeled eval suite (single + multi-step)
