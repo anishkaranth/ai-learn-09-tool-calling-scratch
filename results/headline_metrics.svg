@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="280" viewBox="0 0 520 280">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="260.0" y="24" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold">ai-learn-09 — Tool-calling smoke metrics</text>
+<line x1="70" y1="40" x2="70" y2="230" stroke="#333" stroke-width="1"/>
+<line x1="70" y1="230" x2="500" y2="230" stroke="#333" stroke-width="1"/>
+<rect x="70.0" y="40.0" width="76.4" height="190.0" fill="#2a9d8f" stroke="#222" stroke-width="0.5"/>
+<text x="108.2" y="34.0" text-anchor="middle" font-family="sans-serif" font-size="11">1.00</text>
+<text x="108.2" y="246" text-anchor="middle" font-family="sans-serif" font-size="10">tool-call</text>
+<rect x="158.4" y="40.0" width="76.4" height="190.0" fill="#264653" stroke="#222" stroke-width="0.5"/>
+<text x="196.6" y="34.0" text-anchor="middle" font-family="sans-serif" font-size="11">1.00</text>
+<text x="196.6" y="246" text-anchor="middle" font-family="sans-serif" font-size="10">selection</text>
+<rect x="246.8" y="40.0" width="76.4" height="190.0" fill="#e9c46a" stroke="#222" stroke-width="0.5"/>
+<text x="285.0" y="34.0" text-anchor="middle" font-family="sans-serif" font-size="11">1.00</text>
+<text x="285.0" y="246" text-anchor="middle" font-family="sans-serif" font-size="10">answer</text>
+<rect x="335.2" y="40.0" width="76.4" height="190.0" fill="#f4a261" stroke="#222" stroke-width="0.5"/>
+<text x="373.4" y="34.0" text-anchor="middle" font-family="sans-serif" font-size="11">1.00</text>
+<text x="373.4" y="246" text-anchor="middle" font-family="sans-serif" font-size="10">multi</text>
+<rect x="423.6" y="40.0" width="76.4" height="190.0" fill="#e76f51" stroke="#222" stroke-width="0.5"/>
+<text x="461.8" y="34.0" text-anchor="middle" font-family="sans-serif" font-size="11">1.00</text>
+<text x="461.8" y="246" text-anchor="middle" font-family="sans-serif" font-size="10">single</text>
+</svg>
