@@ -15,7 +15,7 @@ Smoke run of a **toy ReAct-style tool-calling agent** (heuristic planner, no LLM
 | Single-step answer accuracy | 1.0000 |
 | Mean tools / task | 1.43 |
 | Mean steps / task | 1.43 |
-| Runtime (s) | 0.176 |
+| Runtime (s) | 0.003 |
 | Tools registered | 5 |
 
 ## Tool usage
